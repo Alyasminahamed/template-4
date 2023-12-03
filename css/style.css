@@ -1,0 +1,258 @@
+/* navbar */
+
+
+.navbar .collapse a{
+    color: #000;
+
+}
+
+.navbar .collapse a:hover{
+    font-size: 20px;
+    color: #8e1efc;
+
+}
+
+/* head */
+.head {
+    padding-top: 80px;
+    position: relative;
+    background-size: cover;
+    background-image: linear-gradient(to left, #7a60ff , #cd9ffa)
+}
+
+.head .col-lg-8{
+    color: rgb(248, 243, 243);
+    text-align: left;
+    font-weight: 400;
+}
+.head .col-lg-8 li{
+    
+    padding: 50px 10px 10px 0px;
+    list-style: none;
+    float: left;
+    cursor: pointer;
+}
+.head .col-lg-8 li img{
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* about */
+.row .col-lg-4 .icon-box {
+
+    display: block;
+    position: relative;
+    width: 135px;
+    height: 135px;
+    border-radius: 100px;
+    background-image: linear-gradient(to left, #7a60ff , #cd9ffa);
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 135px;
+    margin: 0 auto;
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: fadeInUp;
+}
+
+.About  .line{
+    height: 2px;
+    width: 50px;
+    background: #863cff;
+    display: block;
+    margin: 20px auto 20px;
+}
+.line::after{
+    border-bottom: 2px dashed #863cff;
+    width: 150px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    margin-left: -75px;
+}
+
+.row  h5{
+    margin-top: 30px;
+    font-weight: 600;
+}
+.row .all p{
+    color: #818992;
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
+}
+.row .btn a{
+    color: #8e1efc;
+    text-decoration: none;
+    border: 2px solid #8e1efc ;
+    border-radius: 7px;
+    padding: 10px 40px;
+    margin-top:30px ;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.row a:hover{
+    color: white;
+    background-color: #8e1efc;
+}
+
+/* watch */
+
+.video-section{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    background-image: url(../image/video-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.video-section .video-overlay{
+    background: linear-gradient(to left, rgba(122, 96, 255, 0.90), rgba(205, 159, 250, 0.90));
+
+}
+.video-section i{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 100px;
+    color: #8e1efc;
+    background-color: white;
+}
+
+/* Features */
+
+
+.left-side{
+    text-align: right;
+
+}
+.left-side i{
+    display: block;
+    float: right;
+    color: #8e1efc;
+    border: 1px solid #8e1efc;
+    padding: 15px;
+    border-radius: 100px;
+    margin: 30px;
+    margin-bottom: 70px;
+}
+
+
+.right-slide i{
+    display: block;
+    float: left;
+    color: #8e1efc;
+    border: 1px solid #8e1efc;
+    padding: 15px;
+    border-radius: 100px;
+    margin: 30px;
+    margin-bottom: 70px;
+}
+
+
+/* our team */
+.our-team{
+    text-align: center;
+    background-color: rgb(225, 224, 224) ;
+}
+.our-team  img{
+    margin-top: 30px;
+    width: 70%;
+    border-radius: 200px;
+}
+.our-team h4{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding: 10px;
+    color: rgb(142, 30, 252);
+}
+.our-team p{
+    margin-top: 0px;
+}
+
+
+/* Testimonials */
+
+.Testimonials {
+    background-image: linear-gradient(to left, #7a60ff , #cd9ffa);
+}
+.Testimonials .carousel-item .card{
+    background-color: rgb(219, 219, 219);
+
+}
+.Testimonials .carousel-item img{
+    margin: 30px 0px 20px 20px;
+    height: 200px;
+    border-radius: 100px;
+    border: 10px solid white;
+}
+
+/* Frequently */
+.Frequently{
+    background-color: rgb(239, 239, 239);
+}
+.Frequently .sec p{
+    color: #989797;
+}
+
+
+/* Contact us  */
+
+.contact .form input{
+    border-radius: 30px;
+}
+.contact .form textarea{
+    padding:20px 0px 0px 20px; 
+    height: 150px;
+    border-radius: 40px;
+}
+.contact .form button{
+    border-radius: 40px;
+    color: white;
+    background-image: linear-gradient(to left, #7a60ff , #cd9ffa);
+}
+
+.contact .contact-info{
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    border: none;
+    list-style: none;
+    background-image: linear-gradient(to left, #7a60ff , #cd9ffa);
+
+}
+.contact .contact-item i{
+    display: flex;
+    float: left;
+    padding: 15px;
+
+}
+.contact .contact-item h6{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.contact .contact-item p{
+    padding: 10px;
+    padding-top: 0px;
+}
+
+
+/* footer */
+.Download{
+    color: white;
+    background-image: linear-gradient(to left, #7a60ff , #cd9ffa);
+}
+.Download .contant{
+    text-align: center;
+    margin: 0 auto;
+}
+.Download li{    
+    padding: 50px 10px 10px 0px;
+    list-style: none;
+    float: left;
+    cursor: pointer;
+}
+.Download li img{
+    text-decoration: none;
+    border-radius: 10px;
+}
