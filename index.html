@@ -14,12 +14,12 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg container" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="image/logo-black.png" alt=""> 
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <a class="navbar-brand p-3" href="#">
+                <img src="image/logo-black.png" alt=""> 
+              </a>
+            <a href="#navbarSupportedContent" class="navbar-toggler" data-toggle="collapse">
+                <span class="fas fa-bars"></span>
+            </a>
 
             <div class="collapse navbar-collapse"  id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto me-auto mb-2 mb-lg-0">
@@ -55,11 +55,11 @@
                     <li><a class="dropdown-item" href="#">FullStack</a></li>
                     </ul>
                 </li>
-    
                 </ul>
-          </div>
+            
+            </div>
         </div>
-      </nav>
+    </nav>
 
 
       <!-- head -->
@@ -73,9 +73,13 @@
                         <h4>This awesome template designed by W3 Template.</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit neque massa, sit amet tristique ante porta ut. In sodales et justo vel vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                     </div>
-                    <ul>
-                        <li><a href="#"><img src="image/playstore.png"></a></li>
-                        <li><a href="#"><img src="image/appstore.png"></a></li>
+                    <ul >
+                        <li><a class="play" href="#">
+                            <img src="image/playstore.png">
+                        </a></li>
+                        <li><a class="play" href="#">
+                            <img src="image/appstore.png">
+                        </a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4">
@@ -177,7 +181,9 @@
 
 
             <div class="col-lg-4">
-                <img class="sec2" src="image/iphone-screen-with-shadow.png">
+                <div class="sec2">
+                    <img src="image/iphone-screen-with-shadow.png">
+                </div>
             </div>
 
 
@@ -238,24 +244,24 @@
         <div class="container">
             <div class="row ">
                 <div class="About text-center mt-2  p-5">
-                    <h1 class="m-2 p-2">Our Team</h1>
+                    <h1 class="m-2 p-2">Testimonials</h1>
                     <spam class="line"></spam>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod earum aliquam doloribus dicta veritatis quas, reiciendis pariatur a, aspernatur nesciunt officiis aliquid deserunt expedita assumenda aperiam temporibus explicabo magni!</p>
                 </div> 
             </div>
             
             <div class="carousel slide " id="slide">
-                <div class="row">>
-                    <div class="col-lg-2">
+                <div class="row">
+                    <div class="arrowleft col-lg-2 ">
                         <a href="#slide" class="carousel-control-prev col-lg-2" data-slide="prev">
                             <img src="image/arrow-left.png">
                         </a>
                     </div>
-                    <div class="carousel-inner col-lg-7 ">
+                    <div class="carousel-inner col-lg-6 ">
                         <div class="carousel-item active">
                             <div class="card mb-3 " >
                                 <div class="row g-0">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-5">
                                         <img src="image/user1.jpg" class="img-fluid rounded-start" alt="...">
                                     </div>
                                     <div class="col-lg-6">
@@ -271,7 +277,7 @@
                         <div class="carousel-item ">
                             <div class="card mb-3" >
                                 <div class="row g-0">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-5">
                                         <img src="image/user2.jpg" class="img-fluid rounded-start" alt="...">
                                     </div>
                                     <div class="col-lg-6">
@@ -287,7 +293,7 @@
                         <div class="carousel-item ">
                             <div class="card mb-3" >
                                 <div class="row g-0">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-5">
                                         <img src="image/user3.jpg" class="img-fluid rounded-start" alt="...">
                                     </div>
                                     <div class="col-lg-6">
@@ -302,7 +308,7 @@
                         </div>
                 
                     </div>
-                    <div class="col-lg-2">
+                    <div class="arrow col-lg-2">
                         <a href="#slide" class="carousel-control-next col-lg-2" data-slide="next">
                             <img src="image/arrow-right.png">
                         </a>
@@ -438,8 +444,13 @@
                 </div>  
                 <div class="contant text-center pb-5">
                     <ul>
-                        <li><a href="#"><img src="image/playstore.png"></a></li>
-                        <li><a href="#"><img src="image/appstore.png"></a></li>
+                        <li>
+                            <a class="play" href="#">
+                            <img src="image/playstore.png"></a>
+                        </li>
+                        <li>
+                            <a class="play" href="#"><img src="image/appstore.png"></a>
+                        </li>
                     </ul>
                 </div>
             </div>
